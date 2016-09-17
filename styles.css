@@ -70,7 +70,6 @@ header nav ul li {
 
 .nav-svg {
   fill             : #39ADD1;
-  -webkit-transform        : rotateY(0deg);
   transform        : rotateY(0deg);
   transform-origin : center;
   transition       : all .7s ease;
@@ -110,7 +109,6 @@ header #logo {
 }
 
 #logo-text {
-  -webkit-animation        : logorotate 6s infinite cubic-bezier(.55,0,.39,1);
   animation        : logorotate 6s infinite cubic-bezier(.55,0,.39,1);
   transform-origin : 50% 90%;
   display: none;
@@ -163,14 +161,11 @@ main li {
 .corgi {
   width         : 170px;
   margin-bottom : 20px;
-  -webkit-transition: all .7s cubic-bezier(.77,-0.35,.4,1.24);
   transition: all .7s cubic-bezier(.77,-0.35,.4,1.24);
-  -webkit-transform: rotate(0) scale(1);
   transform: rotate(0) scale(1);
 }
 
 .corgi:hover {
-  -webkit-transform: rotate(-10deg) scale(1.15):
   transform: rotate(-10deg) scale(1.15);
 }
 
@@ -183,29 +178,6 @@ main li {
   animation        : moveBrows .6s infinite alternate;
   animation-delay: .5s;
 }
-
-/* ************* Corgi colors *************** */
-
-.red-st0{fill:#BA8058;}
-.red-st1{fill:#FBFEFF;}
-.red-st2{fill:#2D3339;}
-.red-st3{fill:#EAAA7F;}
-
-.fawn-st0{fill:#EAAA7F;}
-.fawn-st1{fill:#FBFEFF;}
-.fawn-st2{fill:#2D3339;}
-.fawn-st3{fill:#F4C6A6;}
-
-.sable-st0{fill:#844B24;}
-.sable-st1{fill:#FBFEFF;}
-.sable-st2{fill:#2D3339;}
-.sable-st3{fill:#BA8058;}
-
-
-.blacktan-st0{fill:#BA8058;}
-.blacktan-st1{fill:#52595F;}
-.blacktan-st2{fill:#FBFEFF;}
-.blacktan-st3{fill:#2D3339;}
 
 main li span {
   margin-left : -40px;
